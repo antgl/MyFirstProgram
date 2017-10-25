@@ -1,6 +1,7 @@
 package ru.qa.sandbox;
 
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SquareTests {
@@ -9,7 +10,7 @@ public class SquareTests {
     public void testArea() {
         Square s = new Square(5);
         s.area();
-        assert s.area() == 25;
+        Assert.assertEquals(s.area(), 25.0);
 
     }
 
