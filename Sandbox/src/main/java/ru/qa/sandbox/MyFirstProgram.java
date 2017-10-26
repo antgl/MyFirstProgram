@@ -11,6 +11,11 @@ public class MyFirstProgram {
 
         Rectangle r = new Rectangle(4,6);
         System.out.println("Rectangle area is " + r.area());
+
+//        Equation e = new Equation(1,2,39);
+//        System.out.println("Equation number is " +e.n);
+
+
     }
 
 
