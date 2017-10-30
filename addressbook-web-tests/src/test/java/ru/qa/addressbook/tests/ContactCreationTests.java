@@ -1,7 +1,6 @@
 package ru.qa.addressbook.tests;
 
 import org.testng.annotations.Test;
-import ru.qa.addressbook.appmanager.ContactHelper;
 import ru.qa.addressbook.model.ContactData;
 
 public class ContactCreationTests extends TestBase {
