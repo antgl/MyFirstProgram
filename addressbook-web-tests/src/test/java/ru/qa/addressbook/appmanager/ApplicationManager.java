@@ -24,6 +24,7 @@ public class ApplicationManager {
 
         if (browser == org.openqa.selenium.remote.BrowserType.FIREFOX) {
             wd = new FirefoxDriver();
+            //System.setProperty("webdriver.gecko.driver", "c:\\Anton\\Soft\\geckodriver.exe");
         } else if (browser == org.openqa.selenium.remote.BrowserType.CHROME) {
             wd = new ChromeDriver();
         } else if (browser == org.openqa.selenium.remote.BrowserType.IE) {
