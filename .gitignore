@@ -2,3 +2,9 @@
 build/
 .idea/workspace.xml
 *.xml
+idea/
+*.xml
+.idea/libraries/Gradle__com_google_code_gson_gson_2_3_1.xml
+.idea/libraries/Gradle__com_google_guava_guava_19_0.xml
+.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml
+*.xml
