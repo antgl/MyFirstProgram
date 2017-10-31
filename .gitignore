@@ -3,3 +3,5 @@ build/
 .idea/workspace.xml
 *.xml
 idea/
+*.lock
+Sandbox/.gradle/4.2.1/fileHashes/fileHashes.bin
